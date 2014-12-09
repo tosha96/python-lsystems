@@ -1,0 +1,7 @@
+s = turtle.Screen()
+turtle = turtle.Turtle()
+turtle.hideturtle()
+turtle.penup()
+#turtle.setpos(-200,-200)
+turtle.pendown()
+turtle.speed("fastest")

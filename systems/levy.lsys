@@ -1,0 +1,9 @@
+variables:F
+constants:+,-
+start:F
+vrules:
+*F:+F--F+
+crules:
+*F:forward
+*+:left(45)
+*-:right(45)

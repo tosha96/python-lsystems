@@ -1,0 +1,10 @@
+variables:F,X
+constants:+,-,[,]
+start:X
+vrules:
+*F:FF
+*X:F-[[X]+X]+F[+FX]-X
+crules:
+*F:forward
+*+:left(25)
+*-:right(25)

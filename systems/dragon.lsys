@@ -1,0 +1,10 @@
+variables:X,Y
+constants:+,-,F
+start:FX
+vrules:
+*X:X+YF
+*Y:FX-Y
+crules:
+*F:forward
+*+:left(90)
+*-:right(90)

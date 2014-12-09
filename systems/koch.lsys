@@ -1,0 +1,11 @@
+#reserved characters: +,-\
+
+variables:F
+constants:+,-
+start:F
+vrules:
+*F:F+F-F-F+F
+crules:
+*F:forward
+*+:left(90)
+*-:right(90)

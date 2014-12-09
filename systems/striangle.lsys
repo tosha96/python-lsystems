@@ -1,0 +1,11 @@
+variables:A,B
+constants:+,-
+start:A
+vrules:
+*A:B-A-B
+*B:A+B+A
+crules:
+*A:forward
+*B:forward
+*+:left(60)
+*-:right(60)
